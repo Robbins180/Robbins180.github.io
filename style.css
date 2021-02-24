@@ -18,7 +18,7 @@ body {
 
 .box-img{
   border-radius: 50%;
-  width: 200px;
+  width: 150px;
   height: 200px;
 }
 
@@ -47,7 +47,7 @@ ul{
 
 .box li{
   display: inline-block;
-  margin: 6px;
+  margin: 12px;
   list-style: none;
 }
 
@@ -62,3 +62,75 @@ ul{
 .box li a:hover{
   color: #b9b9b9;
 }
+
+////////////////
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  margin-top: 10px;
+}
+
+.flex-container .taco{
+  background: rgba(0,0,0, 0.4);
+  background-color: black;
+  color: white;
+  width: 425px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  transition: all ease-in-out 250ms;
+}
+
+.flex-container .taco:hover{
+  color: #b9b9b9;
+}
+
+.flex-container .car{
+  background-color: black;
+  color: white;
+  width: 425px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  transition: all ease-in-out 250ms;
+}
+
+.flex-container .car:hover{
+  color: #b9b9b9;
+}
+
+.flex-container .deer{
+  background-color: black;
+  color: white;
+  width: 425px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  transition: all ease-in-out 250ms;
+}
+
+.flex-container .deer:hover{
+  color: #b9b9b9;
+}
+
+.flex-container .people{
+  background-color: black;
+  color: white;
+  width: 425px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  transition: all ease-in-out 250ms;
+}
+
+.flex-container .people:hover{
+  color: #b9b9b9;
+}
+
+//////
